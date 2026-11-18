@@ -1,3 +1,10 @@
+proxmox-backup-qemu (2.0.4+s390x1) trixie; urgency=medium
+
+  * s390x port: build against the proxmox-backup fork (4.2.12-1+s390x1, with
+    the pbs-client s390x build fix); submodule URL switched to https.
+
+ -- Yvan Janssens <yvanj@cyber.gent>  Wed, 18 Nov 2026 10:59:55 +0100
+
 proxmox-backup-qemu (2.0.4) trixie; urgency=medium
 
   * backup: read disks in full when the previous backup failed. If finishing a
