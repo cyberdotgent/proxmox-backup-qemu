@@ -1,3 +1,12 @@
+proxmox-backup-qemu (2.0.4+s390x3) trixie; urgency=medium
+
+  * Update the proxmox-backup submodule to 4.2.14-1+s390x1 and the build
+    dependencies to its crate versions (proxmox-notify 3, pbs-api-types
+    1.0.23, proxmox-section-config 3.4).
+  * Build without build-host paths in the binaries.
+
+ -- Yvan Janssens <yvanj@cyber.gent>  Sat, 21 Nov 2026 19:30:30 +0100
+
 proxmox-backup-qemu (2.0.4+s390x2) trixie; urgency=medium
 
   * Rebuild with cleaned changelog and test data.
